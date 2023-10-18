@@ -45,11 +45,13 @@ body {
 h1 {
     font-size: 3em;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 p {
     font-size: 1.2em;
     margin-bottom: 20px;
+    color: #ffffff62;
 }
 
 button {
