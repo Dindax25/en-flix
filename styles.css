@@ -27,7 +27,7 @@ body {
 /* Hero Styles */
 .hero {
     background-image: url('https://i.pinimg.com/originals/2e/f8/16/2ef81631e135904cf194c8015cf2a9d2.jpg');
-    background-size: cover;
+    background-size: 1000px;
     background-position: center;
     height: 150vh;
     display: flex;
@@ -70,7 +70,9 @@ button:hover {
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: #000000;
+    font-size: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
 }
 
 /* Categories Styles */
