@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    padding: 20px 30px 100px; /* Memperbarui padding */
+    background-color: #111;
+}
+
+.logo, .avatar {
+    height: 20px;
+}
+
+.en-flix {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+/* Hero Styles */
+.hero {
+    background-image: url('https://i.pinimg.com/originals/2e/f8/16/2ef81631e135904cf194c8015cf2a9d2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #777070;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+/* Categories Styles */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.category {
+    text-align: center;
+    max-width: px; /* Menambahkan lebar maksimum */
+    background-color: #646363;
+    padding: 20px; /* Menambahkan padding */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.category h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 1em;
+}
